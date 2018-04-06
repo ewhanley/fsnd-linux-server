@@ -1,6 +1,8 @@
 # Project 6: Linux Server Configuration
 
-For this project I configured an Ubuntu linus server on [AWS's Lightsail service](https://lightsail.aws.amazon.com). The server is configured to host a Flask webapp that I completed for the backend section of Udacity's [Full Stack Nanodegree program](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004). The backend project (catalog app) is currently live [here](http://18.188.177.178.xip.io/cars/). The project required several modifications to the baseline Linux installation for improved security, updates and/or addition of packages/libraries, and user configuration. The configuration steps are detailed below.
+For this project I configured an Ubuntu Linux server on [AWS's Lightsail service](https://lightsail.aws.amazon.com). The server is configured to host a Flask webapp that I completed for the backend section of Udacity's [Full Stack Nanodegree program](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004). The backend project (catalog app) is currently live [here](http://18.188.177.178.xip.io/cars/). The project required several modifications to the baseline Linux installation for improved security, updates and/or addition of packages/libraries, and user configuration. The configuration steps are detailed below.
+
+[http://18.188.177.178.xip.io/](http://18.188.177.178.xip.io/)
 
 ## User Management
 The server was configured to require key authentication for SSH access. I created a 'grader' user for use in project evaluation:
